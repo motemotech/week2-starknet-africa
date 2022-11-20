@@ -1,0 +1,49 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "_address",
+                "type": "felt"
+            }
+        ],
+        "name": "constructor",
+        "outputs": [],
+        "type": "constructor"
+    },
+    {
+        "inputs": [
+            {
+                "name": "_name",
+                "type": "felt"
+            },
+            {
+                "name": "_age",
+                "type": "felt"
+            },
+            {
+                "name": "_gender",
+                "type": "felt"
+            }
+        ],
+        "name": "store_details",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "_address",
+                "type": "felt"
+            }
+        ],
+        "name": "get_name",
+        "outputs": [
+            {
+                "name": "name",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
